@@ -188,6 +188,7 @@ nav {
 /* skill certified section */
 .Skill-certified {
     background-color: #f3f7f7;
+    padding-bottom: 30px;
 }
 
 .skill {
@@ -213,6 +214,11 @@ nav {
     background: white;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.skill-card:hover {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 10%);
+
 }
 
 .skill-card-header {
@@ -250,4 +256,27 @@ nav {
     font-size: 17px;
     font-weight: 700;
     line-height: 1.4;
+}
+
+footer {
+    background-color: white;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+footer>ul>li a {
+    color: #097bbf;
+
+}
+
+footer>ul .link-item::after {
+    content: "|";
+    margin: 0 5px;
+    color: #b7c9cc;
 }
